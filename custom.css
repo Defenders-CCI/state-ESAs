@@ -1,7 +1,7 @@
 p {
   color: #000;
   font-size: 1.1em;
-  font-family: "Open Sans";
+  font-family: sans-serif;
   font-weight: 300;
   padding-left: 10px;
 }
@@ -12,23 +12,18 @@ a {
 }
 
 a:visited {
-  color: #5C6BC0;
-  font-weight: 500;
+  color: black;
+  font-weight: 700;
 }
 
 .selectize-input {
-  border: 1px solid #E0E0E0 !important;
   border-radius: 2px !important;
-  padding-right: 0 !important;
 }
 
-.modal-body {
-  padding: 0 !important;
-}
 
-/* div.form-group.shiny-input-container {
-  text-align: right !important;
-} */
+.navbar {
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
@@ -48,9 +43,10 @@ a:visited {
 
 /*This is the navbar...*/
 .container-fluid {
-  background-color: #000;
+  background-color: #003B87;
   color: #f2f2f2;
 }
+
 
 .section.sidebar {
   background-color: #f2f2f2;
